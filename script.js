@@ -44,14 +44,14 @@ for(let i=0; i<buttons.length; i++){
 				question.push(i);
 				console.log("Вы нажали:", question[i]);					
 			}
-					
+				
 								
       }
-				
+	  let result = buttons[i];		
 	  submitForm.addEventListener('submit',function(event){
 		event.preventDefault();
 		display_no(submit);
-		let result = 'Вы нажали на блоки:<br>' + question[i] + ' <br><br>Вы просто гений. <br><br>Ваш код: <span class="sale_kod">' + sale_kod + '</span>';
+		let result = 'Вы нажали на блоки:<br>' + question[result] + ' <br><br>Вы просто гений. <br><br>Ваш код: <span class="sale_kod">' + sale_kod + '</span>';
 		document.getElementById("result").innerHTML = result;
 		console.log(question[i]);
 		
