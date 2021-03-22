@@ -51,6 +51,6 @@ input:hover {
   font-weight: bold;
   font-size: 25px;
 }
-.hidden {
+.display-no {
   display: none;
 }
