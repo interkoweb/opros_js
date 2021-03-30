@@ -48,7 +48,7 @@ function display_yes(event){
 							display_yes(div2);
 							otvet = question[i];
             }
-            else if(i==2||i==3){
+            else if(i==2||i==3){ 
 							display_no(div2);
 							question.push(i);
 							display_yes(div3);
@@ -65,7 +65,7 @@ function display_yes(event){
 			 
 				
 			
-				console.log(otvet);
+				
 				
 				});
 
@@ -82,7 +82,7 @@ let sale_kod = getRandomInt(100000, 999999);
 				var result = 'Вы нажали на блоки:<br>' + otvet + '  ' + otvet1 + '  ' + otvet2 + '<br><br>Вы просто гений. <br><br>Ваш код: <span class="sale_kod">' + sale_kod + '</span>';
 				document.getElementById("result").innerHTML = result;
 
-			});
+			}), 50;
 
 	
 
